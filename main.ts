@@ -25,8 +25,9 @@ radio.onReceivedValue(function (name, value) {
 })
 let yHodnota = 0
 let xHodnota = 0
+music.setVolume(255)
 radio.setGroup(1)
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.TShirt)
 basic.forever(function () {
     cuteBot.motors(yHodnota + xHodnota, yHodnota - xHodnota)
 })

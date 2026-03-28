@@ -7,7 +7,7 @@ radio.onReceivedValue(function (name, value) {
     }
     if (name == "t") {
         if (value == 1) {
-            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_R, 255, 255, 0)
+            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_R, 106, 108, 0)
         } else if (value == 2) {
             cuteBot.singleheadlights(cuteBot.RGBLights.RGB_L, 0, 0, 255)
         } else if (value == 3) {

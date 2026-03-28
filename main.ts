@@ -7,9 +7,9 @@ radio.onReceivedValue(function (name, value) {
     }
     if (name == "t") {
         if (value == 1) {
-            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_R, 106, 108, 0)
+            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_R, 100, 108, 0)
         } else if (value == 2) {
-            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_L, 0, 0, 255)
+            cuteBot.singleheadlights(cuteBot.RGBLights.RGB_L, 100, 0, 0)
         } else if (value == 3) {
             music.play(music.stringPlayable("C5 B A G F E D C ", 120), music.PlaybackMode.InBackground)
         } else if (value == 4) {
